@@ -1,0 +1,99 @@
+{
+    "segments": {
+        "text": " and soon saw two sails to winward, going directly at thwart our haws. So the hurry of my thoughts being over. This was the first time that I had seen a sail at sea. And in that one night's wickedness, I drowned all my repentance. I thought then and have always since. All my reflections upon my past conduct.",
+        "chunks": [
+            {
+                "timestamp": [
+                    0.0,
+                    5.0
+                ],
+                "text": " and soon saw two sails to winward, going directly at thwart our haws."
+            },
+            {
+                "timestamp": [
+                    5.0,
+                    8.0
+                ],
+                "text": " So the hurry of my thoughts being over."
+            },
+            {
+                "timestamp": [
+                    8.0,
+                    12.0
+                ],
+                "text": " This was the first time that I had seen a sail at sea."
+            },
+            {
+                "timestamp": [
+                    12.0,
+                    16.0
+                ],
+                "text": " And in that one night's wickedness, I drowned all my repentance."
+            },
+            {
+                "timestamp": [
+                    16.0,
+                    20.0
+                ],
+                "text": " I thought then and have always since."
+            },
+            {
+                "timestamp": [
+                    20.0,
+                    23.0
+                ],
+                "text": " All my reflections upon my past conduct."
+            }
+        ]
+    },
+    "speakers": [
+        {
+            "speaker": "SPEAKER_01",
+            "text": " and soon saw two sails to winward, going directly at thwart our haws.",
+            "timestamp": [
+                0.0,
+                5.0
+            ]
+        },
+        {
+            "speaker": "SPEAKER_03",
+            "text": " So the hurry of my thoughts being over.",
+            "timestamp": [
+                5.0,
+                8.0
+            ]
+        },
+        {
+            "speaker": "SPEAKER_02",
+            "text": " This was the first time that I had seen a sail at sea.",
+            "timestamp": [
+                8.0,
+                12.0
+            ]
+        },
+        {
+            "speaker": "SPEAKER_03",
+            "text": " And in that one night's wickedness, I drowned all my repentance.",
+            "timestamp": [
+                12.0,
+                16.0
+            ]
+        },
+        {
+            "speaker": "SPEAKER_00",
+            "text": " I thought then and have always since.",
+            "timestamp": [
+                16.0,
+                20.0
+            ]
+        },
+        {
+            "speaker": "SPEAKER_03",
+            "text": " All my reflections upon my past conduct.",
+            "timestamp": [
+                20.0,
+                23.0
+            ]
+        }
+    ]
+}

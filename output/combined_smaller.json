@@ -1,0 +1,69 @@
+{
+    "segments": {
+        "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team. The truth is that, as there is ample testimony, and I look to the land where the smoke we had seen three-quarters of an hour ago. As they reached the extraction point, they heard the roar of engines overhead.",
+        "chunks": [
+            {
+                "timestamp": [
+                    0.0,
+                    6.8
+                ],
+                "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team."
+            },
+            {
+                "timestamp": [
+                    6.8,
+                    13.32
+                ],
+                "text": " The truth is that, as there is ample testimony, and I look to the land where the smoke we had"
+            },
+            {
+                "timestamp": [
+                    13.32,
+                    16.4
+                ],
+                "text": " seen three-quarters of an hour ago."
+            },
+            {
+                "timestamp": [
+                    16.4,
+                    20.84
+                ],
+                "text": " As they reached the extraction point, they heard the roar of engines overhead."
+            }
+        ]
+    },
+    "speakers": [
+        {
+            "speaker": "SPEAKER_00",
+            "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team.",
+            "timestamp": [
+                0.0,
+                6.8
+            ]
+        },
+        {
+            "speaker": "SPEAKER_01",
+            "text": " The truth is that, as there is ample testimony, and I look to the land where the smoke we had",
+            "timestamp": [
+                6.8,
+                13.32
+            ]
+        },
+        {
+            "speaker": "SPEAKER_02",
+            "text": " seen three-quarters of an hour ago.",
+            "timestamp": [
+                13.32,
+                16.4
+            ]
+        },
+        {
+            "speaker": "SPEAKER_00",
+            "text": " As they reached the extraction point, they heard the roar of engines overhead.",
+            "timestamp": [
+                16.4,
+                20.84
+            ]
+        }
+    ]
+}
