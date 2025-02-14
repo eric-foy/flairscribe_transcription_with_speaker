@@ -1,5 +1,39 @@
 {
-    "segments": {
+    "speakers": [
+        {
+            "speaker": "SPEAKER_01",
+            "text": " Yet, he is of all creatures the most formatively armed.",
+            "timestamp": [
+                0.0,
+                4.52
+            ]
+        },
+        {
+            "speaker": "SPEAKER_00",
+            "text": " What then is the devilfish? It is the sea vampire.",
+            "timestamp": [
+                4.52,
+                9.24
+            ]
+        },
+        {
+            "speaker": "SPEAKER_02",
+            "text": " To make sure this sad part of my story, we went the way of Hall sailors. The punch was made and I was made half drunk with it.",
+            "timestamp": [
+                9.24,
+                18.04
+            ]
+        },
+        {
+            "speaker": "SPEAKER_01",
+            "text": " At about two o'clock we heard the loud cry of sailho from a loft.",
+            "timestamp": [
+                18.04,
+                23.4
+            ]
+        }
+    ],
+    "asr": {
         "text": " Yet, he is of all creatures the most formatively armed. What then is the devilfish? It is the sea vampire. To make sure this sad part of my story, we went the way of Hall sailors. The punch was made and I was made half drunk with it. At about two o'clock we heard the loud cry of sailho from a loft.",
         "chunks": [
             {
@@ -46,38 +80,46 @@
             }
         ]
     },
-    "speakers": [
+    "diarization": [
         {
-            "speaker": "SPEAKER_01",
-            "text": " Yet, he is of all creatures the most formatively armed.",
-            "timestamp": [
-                0.0,
-                4.52
-            ]
+            "segment": {
+                "start": 0.45284375,
+                "end": 0.5372187500000001
+            },
+            "track": "A",
+            "label": "SPEAKER_01"
         },
         {
-            "speaker": "SPEAKER_00",
-            "text": " What then is the devilfish? It is the sea vampire.",
-            "timestamp": [
-                4.52,
-                9.24
-            ]
+            "segment": {
+                "start": 0.5372187500000001,
+                "end": 8.02971875
+            },
+            "track": "B",
+            "label": "SPEAKER_00"
         },
         {
-            "speaker": "SPEAKER_02",
-            "text": " To make sure this sad part of my story, we went the way of Hall sailors. The punch was made and I was made half drunk with it.",
-            "timestamp": [
-                9.24,
-                18.04
-            ]
+            "segment": {
+                "start": 9.160343750000003,
+                "end": 9.177218750000002
+            },
+            "track": "C",
+            "label": "SPEAKER_00"
         },
         {
-            "speaker": "SPEAKER_01",
-            "text": " At about two o'clock we heard the loud cry of sailho from a loft.",
-            "timestamp": [
-                18.04,
-                23.4
-            ]
+            "segment": {
+                "start": 9.177218750000002,
+                "end": 17.36159375
+            },
+            "track": "D",
+            "label": "SPEAKER_02"
+        },
+        {
+            "segment": {
+                "start": 17.98596875,
+                "end": 23.43659375
+            },
+            "track": "E",
+            "label": "SPEAKER_01"
         }
     ]
 }
