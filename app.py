@@ -1,9 +1,14 @@
 from flask import Flask, request
 import numpy as np
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
+# cors = CORS(app, resources={"/hello": {"origins": "*"}})
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/speechbox", methods=['POST'])
+@cross_origin()
 def speechbox():
     group_by_speaker = False
 
@@ -71,3 +76,9 @@ def speechbox():
         end_timestamps = end_timestamps[upto_idx + 1 :]
 
     return segmented_preds
+
+
+@app.route("/hello")
+@cross_origin()
+def hello_world():
+    return "Hello, World!"
