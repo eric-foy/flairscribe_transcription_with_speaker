@@ -1,37 +1,4 @@
 {
-    "segments": {
-        "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team. The truth is that, as there is ample testimony, and I look to the land where the smoke we had seen three-quarters of an hour ago. As they reached the extraction point, they heard the roar of engines overhead.",
-        "chunks": [
-            {
-                "timestamp": [
-                    0.0,
-                    6.8
-                ],
-                "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team."
-            },
-            {
-                "timestamp": [
-                    6.8,
-                    13.32
-                ],
-                "text": " The truth is that, as there is ample testimony, and I look to the land where the smoke we had"
-            },
-            {
-                "timestamp": [
-                    13.32,
-                    16.4
-                ],
-                "text": " seen three-quarters of an hour ago."
-            },
-            {
-                "timestamp": [
-                    16.4,
-                    20.84
-                ],
-                "text": " As they reached the extraction point, they heard the roar of engines overhead."
-            }
-        ]
-    },
     "speakers": [
         {
             "speaker": "SPEAKER_00",
@@ -64,6 +31,86 @@
                 16.4,
                 20.84
             ]
+        }
+    ],
+    "asr": [
+        {
+            "timestamp": [
+                0.0,
+                6.8
+            ],
+            "text": " Explosions rock the enemy line, providing much needed cover for the Az and his team."
+        },
+        {
+            "timestamp": [
+                6.8,
+                13.32
+            ],
+            "text": " The truth is that, as there is ample testimony, and I look to the land where the smoke we had"
+        },
+        {
+            "timestamp": [
+                13.32,
+                16.4
+            ],
+            "text": " seen three-quarters of an hour ago."
+        },
+        {
+            "timestamp": [
+                16.4,
+                20.84
+            ],
+            "text": " As they reached the extraction point, they heard the roar of engines overhead."
+        }
+    ],
+    "diarization": [
+        {
+            "segment": {
+                "start": 0.58784375,
+                "end": 6.13971875
+            },
+            "track": "A",
+            "label": "SPEAKER_00"
+        },
+        {
+            "segment": {
+                "start": 4.806593750000001,
+                "end": 5.14409375
+            },
+            "track": "B",
+            "label": "SPEAKER_01"
+        },
+        {
+            "segment": {
+                "start": 6.764093750000001,
+                "end": 9.970343750000001
+            },
+            "track": "C",
+            "label": "SPEAKER_01"
+        },
+        {
+            "segment": {
+                "start": 10.662218750000001,
+                "end": 10.67909375
+            },
+            "track": "D",
+            "label": "SPEAKER_01"
+        },
+        {
+            "segment": {
+                "start": 10.67909375,
+                "end": 15.859718750000003
+            },
+            "track": "E",
+            "label": "SPEAKER_02"
+        },
+        {
+            "segment": {
+                "start": 16.28159375,
+                "end": 20.88846875
+            },
+            "track": "F",
+            "label": "SPEAKER_00"
         }
     ]
 }

@@ -1,51 +1,4 @@
 {
-    "segments": {
-        "text": " and soon saw two sails to winward, going directly at thwart our haws. So the hurry of my thoughts being over. This was the first time that I had seen a sail at sea. And in that one night's wickedness, I drowned all my repentance. I thought then and have always since. All my reflections upon my past conduct.",
-        "chunks": [
-            {
-                "timestamp": [
-                    0.0,
-                    5.0
-                ],
-                "text": " and soon saw two sails to winward, going directly at thwart our haws."
-            },
-            {
-                "timestamp": [
-                    5.0,
-                    8.0
-                ],
-                "text": " So the hurry of my thoughts being over."
-            },
-            {
-                "timestamp": [
-                    8.0,
-                    12.0
-                ],
-                "text": " This was the first time that I had seen a sail at sea."
-            },
-            {
-                "timestamp": [
-                    12.0,
-                    16.0
-                ],
-                "text": " And in that one night's wickedness, I drowned all my repentance."
-            },
-            {
-                "timestamp": [
-                    16.0,
-                    20.0
-                ],
-                "text": " I thought then and have always since."
-            },
-            {
-                "timestamp": [
-                    20.0,
-                    23.0
-                ],
-                "text": " All my reflections upon my past conduct."
-            }
-        ]
-    },
     "speakers": [
         {
             "speaker": "SPEAKER_01",
@@ -94,6 +47,100 @@
                 20.0,
                 23.0
             ]
+        }
+    ],
+    "asr": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " and soon saw two sails to winward, going directly at thwart our haws."
+        },
+        {
+            "timestamp": [
+                5.0,
+                8.0
+            ],
+            "text": " So the hurry of my thoughts being over."
+        },
+        {
+            "timestamp": [
+                8.0,
+                12.0
+            ],
+            "text": " This was the first time that I had seen a sail at sea."
+        },
+        {
+            "timestamp": [
+                12.0,
+                16.0
+            ],
+            "text": " And in that one night's wickedness, I drowned all my repentance."
+        },
+        {
+            "timestamp": [
+                16.0,
+                20.0
+            ],
+            "text": " I thought then and have always since."
+        },
+        {
+            "timestamp": [
+                20.0,
+                23.0
+            ],
+            "text": " All my reflections upon my past conduct."
+        }
+    ],
+    "diarization": [
+        {
+            "segment": {
+                "start": 0.52034375,
+                "end": 5.11034375
+            },
+            "track": "A",
+            "label": "SPEAKER_01"
+        },
+        {
+            "segment": {
+                "start": 5.48159375,
+                "end": 7.64159375
+            },
+            "track": "B",
+            "label": "SPEAKER_03"
+        },
+        {
+            "segment": {
+                "start": 8.29971875,
+                "end": 11.269718750000003
+            },
+            "track": "C",
+            "label": "SPEAKER_02"
+        },
+        {
+            "segment": {
+                "start": 12.46784375,
+                "end": 16.24784375
+            },
+            "track": "D",
+            "label": "SPEAKER_03"
+        },
+        {
+            "segment": {
+                "start": 16.922843750000002,
+                "end": 19.454093750000002
+            },
+            "track": "E",
+            "label": "SPEAKER_00"
+        },
+        {
+            "segment": {
+                "start": 20.14596875,
+                "end": 22.33971875
+            },
+            "track": "F",
+            "label": "SPEAKER_03"
         }
     ]
 }
