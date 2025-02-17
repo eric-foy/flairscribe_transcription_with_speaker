@@ -41,7 +41,7 @@ def speechbox():
         }
     )
 
-    transcript = json_data["asr"]["chunks"]
+    transcript = json_data["asr"]
 
     # get the end timestamps for each chunk from the ASR output
     end_timestamps = np.array([chunk["timestamp"][-1] for chunk in transcript])
