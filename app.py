@@ -3,12 +3,11 @@ import numpy as np
 from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
-cors = CORS(app)
-# cors = CORS(app, resources={"/hello": {"origins": "*"}})
+# cors = CORS(app)
+cors = CORS(app, resources={"/hello2": {"origins": "*"}})
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/speechbox", methods=['POST'])
-@cross_origin()
 def speechbox():
     group_by_speaker = False
 
@@ -79,6 +78,5 @@ def speechbox():
 
 
 @app.route("/hello")
-@cross_origin()
 def hello_world():
     return "Hello, World!"
