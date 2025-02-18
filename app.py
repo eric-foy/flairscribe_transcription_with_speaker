@@ -8,7 +8,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/speechbox", methods=['POST'])
 def speechbox():
-    group_by_speaker = False
+    group_by_speaker = True
 
     json_data = request.get_json()
 
