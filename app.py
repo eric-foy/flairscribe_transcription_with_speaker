@@ -58,10 +58,14 @@ def speechbox():
             continue
 
         if group_by_speaker:
+            grouped_text = "".join([chunk["text"] for chunk in transcript[: upto_idx + 1]])
+            if (grouped_text == "" or grouped_text == " "):
+                continue
+
             segmented_preds.append(
                 {
                     "speaker": segment["speaker"],
-                    "text": "".join([chunk["text"] for chunk in transcript[: upto_idx + 1]]),
+                    "text": grouped_text,
                     "timestamp": (transcript[0]["timestamp"][0], transcript[upto_idx]["timestamp"][1]),
                 }
             )
